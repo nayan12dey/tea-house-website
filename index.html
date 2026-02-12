@@ -33,22 +33,24 @@
 
     <!-- banner section starts -->
 
-    <section class="grid grid-cols-1 md:grid-cols-2 container mx-auto max-w-[1200px]">
+    <section class="grid grid-cols-1 md:grid-cols-2 container mx-auto max-w-[1200px]  px-4 md:px-0 py-10 md:py-20 gap-10 items-center">
         <div class="banner-left space-y-[30px] ">
-            <h2 class="text-[80px] font-bold">It's good <br>
+            <h2 class="text-[50px] md:text-[70px] lg:text-[80px] font-bold">It's good <br>
                 tea time at The <br> Tea House</h2>
             <p class="text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste
                 Buds.</p>
             <button
-                class="py-3 px-5 rounded-md text-white font-semibold bg-linear-to-r from-[#FF8938] to-[#ff0000]">Explore
-                More <span class="-rotate-45 inline-block"><i class="fa-solid fa-arrow-right"></i></span></button>
+                class=" group py-5 px-6 rounded-md text-white font-semibold bg-linear-to-r from-[#FF8938] to-[#ff0000] mx-auto transition-all duration-300 ease-initial
+  hover:-translate-y-1 hover:shadow-2xl
+  hover:from-[#ff7a1a] hover:to-[#e60000]">Explore
+                More <span class="-rotate-45 inline-block transition-all duration-300 ease-in-out group-hover:rotate-0"><i class="fa-solid fa-arrow-right"></i></span></button>
         </div>
         <div class="banner-right  flex justify-end items-end relative">
             <img src="./images/banner.png" alt="">
 
             <!-- rating div section -->
             <div
-                class="bg-white rounded-xl shadow-2xl flex justify-center gap-2 items-center w-[255px] absolute bottom-[15px] left-[50px] py-[19px] px-[25px]">
+                class="bg-white rounded-xl shadow-2xl flex justify-center gap-2 items-center w-[255px] absolute bottom-[15px] left-[50px] py-[19px] px-[25px] ">
                 <img src="./images/banner-rating.png" alt="">
                 <div>
                     <h2 class="font-bold text-2xl">5.00</h2>
@@ -108,8 +110,8 @@
 
 
     <!-- great tea section -->
-    <section class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mb-[90px]">
-        <div class="great-tea-left flex gap-[30px] grid grid-cols-2 grid-rows-3">
+    <section class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mb-[90px] border-2 border-red-500">
+        <div class="great-tea-left  gap-[30px] grid grid-cols-2 grid-rows-3">
             <div class="row-span-1 bg-linear-to-r from-[#FF0000] to-[#FF8938] opacity-10 rounded-md"></div>
             <div class="row-span-2 flex justify-center items-center bg-[#E6A6231a] rounded-md">
                 <img src="./images/fresh-1.png" alt="">
